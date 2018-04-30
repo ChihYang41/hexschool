@@ -1,0 +1,259 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrap{
+	width: 1000px;
+	margin: 0 auto;
+	font-family: Microsoft JhengHei;
+}
+
+/*topbar的部分*/
+
+.social-link{
+	background: #f6f6f6;
+	height: 25px;
+	margin-top: 20px;
+}
+.social-link ul{
+	float: right;
+}
+.social-link li{
+	float: left;
+	padding: 0 5px;
+}
+.social-link li a{
+	text-decoration: none;
+	font-size: 15px;
+}
+.facebook{
+	border-right: 2px solid #cccccc;
+}
+.social-link .facebook span{
+	color: #4460a0;
+}
+.social-link .twitter span{
+	color: #00aaec;
+}
+.social-link img{
+	vertical-align: bottom;
+}
+.clearfix{
+	clear: both;
+}
+
+/*header的部分*/
+
+.header h1{
+	float: left;
+	padding: 10px;
+}
+.header h1 a{
+	display: block;
+	background-image: url(../img/LHW/logo_preview.png);
+	width: 170px;
+	height: 36px;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.header ul{
+	float: right;
+}
+.header li{
+	float: left;
+	margin-top: 15px;
+}
+.header li a{
+	text-decoration: none;
+	color: #00cc99;
+	padding: 20px;
+}
+.header li a:hover{
+	border-bottom: 2px solid #00cc99;
+}
+.banner h2{
+	background-image: url(../img/LHW/banner_preview.png);
+	color: #fff;
+	width: 999px;
+	height: 346px;
+	font-size: 35px;
+	padding-top: 135px;
+}
+/*intro的部分*/
+.intro{
+	margin-top: 60px;
+}
+.intro .html5-intro,.intro .RWD-intro,.intro .jQuery-intro{
+	box-shadow: 0px 2px 10px 0 rgba(0,0,0,0.4);
+	border-radius: 2%;
+}
+.intro li{
+	float: left;
+	width: 310px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.intro img{
+	display: block;
+	margin: 20px auto 20px auto;
+}
+.intro h3{
+	text-align: center;
+	font-weight: bold;
+}
+.intro p{
+	padding: 15px;
+	line-height: 25px;
+}
+.intro .RWD-img{
+	margin-top: 50px;	
+}
+.intro .jQuery-img{
+	margin-top: 40px;	
+}
+.jQuery-ul{
+	list-style:disc;
+	padding-left: 25px;
+}
+.RWD-title{
+	margin-top: 45px;	
+}
+.jQuery-title{
+	margin-top: 20px;
+}
+.intro .jQuery-ul li{
+	margin-bottom: 8px;
+}
+/*table的部分*/
+.table{
+	margin: 60px auto;
+}
+.table h2{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.table table{
+	margin: 0 auto;
+
+}
+.table th{
+	background: #f0f0f0;
+	padding: 10px 110px 10px 20px;
+	text-align: left;
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	font-weight: bold;
+}
+.table td{
+	padding: 10px 110px 10px 20px;
+	border-top: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+}
+.table span{
+	color: #00cc99;
+}
+/*form的部分*/
+.form{
+	background: url(../img/LHW/bg_preview.png) repeat-x;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+.form h2{
+	color: #fff;
+	font-size: 24px;
+	line-height: 36px;
+	text-align: center;
+	padding: 10px 0 30px 0;
+}
+.form textarea{
+	float: left;
+	margin-right: 40px;
+	border-radius: 3px;
+}	
+.forminput{
+	float: left;
+}
+.form label{
+	display: block;
+	margin-bottom: 5px;
+	color: #fff;
+}
+.form input[type="text"] {
+	width: 520px;
+	padding: 5px;
+	border-radius: 3px;
+	border-style: none;
+	margin-bottom: 10px;
+}
+.form input[type="submit"]{
+	background-color: #00cc99;
+	color: #fff;
+	border-radius: 3px;
+	border-style: none;
+	padding: 5px 18px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 40px;
+}
+.form input[type="submit"]:hover{
+	cursor: pointer;
+}
+/*footer*/
+.footer{
+	margin-bottom: 40px;
+}
+.footer p{
+	float: right;
+}
+.footer p span{
+	color: #e12d80;
+}
